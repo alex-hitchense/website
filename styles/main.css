@@ -1,0 +1,69 @@
+ul#menu li{ /* მენიუს ბარის სტილი */
+    display: inline-flex;
+    font-size: 25px;
+}
+
+
+
+h1 { /* ყველა ეიჩ ერთის ტეგის ფერი და ბეგრაუნდი არის შეცვლილი */
+    display: inline;
+    color: brown ;
+    background-color: rgb(189, 143, 75) ;
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 255, 0.336);
+    border-radius: 35px;
+}
+
+body { /* ყველა ფეიჯის ბადიში არსებული ბგ ფერი და ცენტრირება */
+    background-color: bisque;
+    color: whitesmoke;
+    text-align: center;
+}
+
+/* a { /* ენქორ ტეგების ტექსტი გაიცენტრა და ფერი შეიცვალა */
+a {
+    color: rgb(134, 2, 2);
+}
+.anchorWrap:hover {
+    display: flex;
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
+    padding: 5px;
+    color: darkgreen;
+}
+
+footer { /* ფუტერში შემავალი კპრაით და ნეიმ ფერი და ფონტი შეიცვალა */
+    color:rgb(255, 0, 128);
+    font-size: 32px;
+}
+#copy {
+    color: brown;
+}
+
+h4 { /* ყველა ეიჩოთხის ფერი და ფონტის ზომა გადაისტილა */
+    color:blueviolet;
+    font-size: 24px;
+}
+
+select { /* სელექტ ტეგის ფერი და სტილი */
+    border-color: rgb(10, 0, 0);
+    border-style: double ;
+
+}
+
+input { /* ინფუთ ტეგის სტილი და ჩარჩო */
+    border-color: rgb(0, 3, 0);
+    border-style: double ;
+}
+
+img { /* იმიჯ ტეგის ჩარჩო და ფერი */
+    border-style: groove;
+    border-color: black;
+}
+
+.center {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-right: auto;
+    margin-left: auto;
+}
